@@ -1,0 +1,65 @@
+[24-Oct-2017 06:35:52 UTC] PHP Fatal error:  Class 'BookingApp\Application' not found in /home/ubuntu/workspace/Projects/web/index.php on line 7
+[24-Oct-2017 06:35:52 UTC] PHP Stack trace:
+[24-Oct-2017 06:35:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projects/web/index.php:0
+[24-Oct-2017 06:35:52 UTC] PHP Fatal error:  Class 'BookingApp\Application' not found in /home/ubuntu/workspace/Projects/web/index.php on line 7
+[24-Oct-2017 06:35:52 UTC] PHP Stack trace:
+[24-Oct-2017 06:35:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projects/web/index.php:0
+[24-Oct-2017 06:58:34 UTC] PHP Fatal error:  Class 'BookingApp\Application' not found in /home/ubuntu/workspace/Projects/web/index.php on line 7
+[24-Oct-2017 06:58:34 UTC] PHP Stack trace:
+[24-Oct-2017 06:58:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projects/web/index.php:0
+[24-Oct-2017 06:58:46 UTC] PHP Fatal error:  Class 'BookingApp\Application' not found in /home/ubuntu/workspace/Projects/web/index.php on line 7
+[24-Oct-2017 06:58:46 UTC] PHP Stack trace:
+[24-Oct-2017 06:58:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projects/web/index.php:0
+[24-Oct-2017 06:58:48 UTC] PHP Fatal error:  Class 'BookingApp\Application' not found in /home/ubuntu/workspace/Projects/web/index.php on line 7
+[24-Oct-2017 06:58:48 UTC] PHP Stack trace:
+[24-Oct-2017 06:58:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projects/web/index.php:0
+[24-Oct-2017 07:01:40 UTC] PHP Fatal error:  Class 'BookingApp\Application' not found in /home/ubuntu/workspace/Projects/web/index.php on line 7
+[24-Oct-2017 07:01:40 UTC] PHP Stack trace:
+[24-Oct-2017 07:01:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projects/web/index.php:0
+[24-Oct-2017 07:24:35 UTC] PHP Fatal error:  Class 'BookingApp\Application' not found in /home/ubuntu/workspace/Projects/web/index.php on line 7
+[24-Oct-2017 07:24:35 UTC] PHP Stack trace:
+[24-Oct-2017 07:24:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projects/web/index.php:0
+[24-Oct-2017 07:37:27 UTC] PHP Fatal error:  Class 'BookingApp\Application' not found in /home/ubuntu/workspace/Projects/web/index.php on line 7
+[24-Oct-2017 07:37:27 UTC] PHP Stack trace:
+[24-Oct-2017 07:37:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projects/web/index.php:0
+[24-Oct-2017 07:37:28 UTC] PHP Fatal error:  Class 'BookingApp\Application' not found in /home/ubuntu/workspace/Projects/web/index.php on line 7
+[24-Oct-2017 07:37:28 UTC] PHP Stack trace:
+[24-Oct-2017 07:37:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projects/web/index.php:0
+[24-Oct-2017 07:47:20 UTC] PHP Fatal error:  Class 'BookingApp\Application' not found in /home/ubuntu/workspace/Projects/web/index.php on line 7
+[24-Oct-2017 07:47:20 UTC] PHP Stack trace:
+[24-Oct-2017 07:47:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projects/web/index.php:0
+[24-Oct-2017 07:48:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [14] unable to open database file' in /home/ubuntu/workspace/Projects/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/Projects/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('sqlite:/home/ub...', 'root', NULL, Array)
+#1 /home/ubuntu/workspace/Projects/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOSqlite/Driver.php(60): Doctrine\DBAL\Driver\PDOConnection->__construct('sqlite:/home/ub...', 'root', NULL, Array)
+#2 /home/ubuntu/workspace/Projects/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOSqlite\Driver->connect(Array, 'root', NULL, Array)
+#3 /home/ubuntu/workspace/Projects/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(833): Doctrine\DBAL\Connection->connect()
+#4 /home/ubuntu/workspace/Projects/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(785): Doctrine\DBAL\Connection->executeQuery('SELECT name  in /home/ubuntu/workspace/Projects/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractSQLiteDriver.php on line 82
+[24-Oct-2017 07:52:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [14] unable to open database file' in /home/ubuntu/workspace/Projects/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/Projects/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('sqlite:/home/ub...', 'root', NULL, Array)
+#1 /home/ubuntu/workspace/Projects/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOSqlite/Driver.php(60): Doctrine\DBAL\Driver\PDOConnection->__construct('sqlite:/home/ub...', 'root', NULL, Array)
+#2 /home/ubuntu/workspace/Projects/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOSqlite\Driver->connect(Array, 'root', NULL, Array)
+#3 /home/ubuntu/workspace/Projects/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(833): Doctrine\DBAL\Connection->connect()
+#4 /home/ubuntu/workspace/Projects/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(785): Doctrine\DBAL\Connection->executeQuery('SELECT name  in /home/ubuntu/workspace/Projects/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractSQLiteDriver.php on line 82
+[24-Oct-2017 07:56:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [14] unable to open database file' in /home/ubuntu/workspace/Projects/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/Projects/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('sqlite:/home/ub...', 'root', NULL, Array)
+#1 /home/ubuntu/workspace/Projects/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOSqlite/Driver.php(60): Doctrine\DBAL\Driver\PDOConnection->__construct('sqlite:/home/ub...', 'root', NULL, Array)
+#2 /home/ubuntu/workspace/Projects/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOSqlite\Driver->connect(Array, 'root', NULL, Array)
+#3 /home/ubuntu/workspace/Projects/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(833): Doctrine\DBAL\Connection->connect()
+#4 /home/ubuntu/workspace/Projects/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(785): Doctrine\DBAL\Connection->executeQuery('SELECT name  in /home/ubuntu/workspace/Projects/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractSQLiteDriver.php on line 82
+[24-Oct-2017 08:00:20 UTC] PHP Fatal error:  Class 'BookingApp\Controllers\ListBookingsController' not found in /home/ubuntu/workspace/Projects/src/Application.php on line 96
+[24-Oct-2017 08:00:20 UTC] PHP Stack trace:
+[24-Oct-2017 08:00:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projects/web/index.php:0
+[24-Oct-2017 08:00:20 UTC] PHP   2. BookingApp\Application->__construct() /home/ubuntu/workspace/Projects/web/index.php:7
+[24-Oct-2017 08:00:20 UTC] PHP   3. BookingApp\Application->configureControllers() /home/ubuntu/workspace/Projects/src/Application.php:25
+[24-Oct-2017 10:51:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Twig_Environment' not found in /home/ubuntu/workspace/Projects/vendor/silex/silex/src/Silex/Provider/TwigServiceProvider.php:172
+Stack trace:
+#0 /home/ubuntu/workspace/Projects/vendor/silex/silex/src/Silex/Provider/TwigServiceProvider.php(63): Silex\Provider\TwigServiceProvider->Silex\Provider\{closure}(Object(BookingApp\Application))
+#1 /home/ubuntu/workspace/Projects/vendor/pimple/pimple/src/Pimple/Container.php(118): Silex\Provider\TwigServiceProvider->Silex\Provider\{closure}(Object(BookingApp\Application))
+#2 /home/ubuntu/workspace/Projects/src/Application.php(87): Pimple\Container->offsetGet('twig')
+#3 /home/ubuntu/workspace/Projects/src/Application.php(23): BookingApp\Application->configureControllers()
+#4 /home/ubuntu/workspace/Projects/web/index.php(7): BookingApp\Application->__construct()
+#5 {main}
+  thrown in /home/ubuntu/workspace/Projects/vendor/silex/silex/src/Silex/Provider/TwigServiceProvider.php on line 172
